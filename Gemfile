@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
-gem 'activeadmin', github: 'gregbell/active_admin'
+#gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'activeadmin','1.0.0.pre'
 # Use mysql as the database for Active Record
 gem 'pg'
 gem 'execjs'

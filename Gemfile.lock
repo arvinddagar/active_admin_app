@@ -1,7 +1,15 @@
-GIT
-  remote: git://github.com/gregbell/active_admin.git
-  revision: 85726865440b5cb190e6b53ce5350d8553538761
+GEM
+  remote: https://rubygems.org/
   specs:
+    actionmailer (4.0.4)
+      actionpack (= 4.0.4)
+      mail (~> 2.5.4)
+    actionpack (4.0.4)
+      activesupport (= 4.0.4)
+      builder (~> 3.1.0)
+      erubis (~> 2.7.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
     activeadmin (1.0.0.pre)
       arbre (~> 1.0)
       bourbon
@@ -15,19 +23,6 @@ GIT
       rails (>= 3.2, < 4.2)
       ransack (~> 1.0)
       sass-rails
-
-GEM
-  remote: https://rubygems.org/
-  specs:
-    actionmailer (4.0.4)
-      actionpack (= 4.0.4)
-      mail (~> 2.5.4)
-    actionpack (4.0.4)
-      activesupport (= 4.0.4)
-      builder (~> 3.1.0)
-      erubis (~> 2.7.0)
-      rack (~> 1.5.2)
-      rack-test (~> 0.6.2)
     activemodel (4.0.4)
       activesupport (= 4.0.4)
       builder (~> 3.1.0)
@@ -190,7 +185,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activeadmin!
+  activeadmin (= 1.0.0.pre)
   capistrano
   coffee-rails (~> 4.0.0)
   execjs
