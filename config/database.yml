@@ -37,3 +37,4 @@ production:
   pool: 5
   username: rubypostgres
   password: postgres
+  host: localhost
