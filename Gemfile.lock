@@ -185,7 +185,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activeadmin (= 1.0.0.pre)
+  activeadmin
   capistrano
   coffee-rails (~> 4.0.0)
   execjs
