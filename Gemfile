@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 gem 'activeadmin', github: 'gregbell/active_admin'
 # Use mysql as the database for Active Record
-gem 'mysql2'
+gem 'pg'
 gem 'execjs'
 gem 'unicorn'
 gem 'capistrano'
